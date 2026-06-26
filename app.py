@@ -2,8 +2,11 @@
 
 from __future__ import annotations
 
+import os
 from pathlib import Path
 import sys
+
+os.environ.setdefault("NPY_USE_LEGACY_LONGDOUBLE", "1")
 
 import streamlit as st
 
